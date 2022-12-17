@@ -2144,7 +2144,7 @@ local games = {
               " "
                    ..
 
-                        Gamename.. "!" .. " \WelCome To Snow Hub loadded ui]"  .."\n Loadded..."
+                        Gamename.. "!" .. " \WelCome🎉 To Cute Hub💗 loadded ui]"  .."\n Loadded..."
             )
       end
    }
@@ -3068,7 +3068,7 @@ AutoFarm:Button("Redeem All code🎁(กดเพื่อใส่ทุกโ�
         Code("Sub2Daigrock")
     end)
 
-AutoFarm:Toggle("AutoFarm Leveel✨(ออโต้ฟาม)",_G.AutoFarm,function(value)
+AutoFarm:Toggle("AutoFarm Level✨(ออโต้ฟาม)",_G.AutoFarm,function(value)
         _G.AutoFarm = value
         StopTween(_G.AutoFarm)
     end)
@@ -3138,7 +3138,7 @@ AutoFarm:Toggle("AutoFarm Leveel✨(ออโต้ฟาม)",_G.AutoFarm,funct
             end
         end
     end)
-        Setting:Toggle("Bring Mob(รวมมอน)",true,function(Mag)
+        Setting:Toggle("Bring Mob💗(รวมมอน)",true,function(Mag)
     _G.BringMonster = Mag
     end)
     spawn(function()
@@ -3296,7 +3296,7 @@ while cac() do
 end
     end)
     
-stats:Toggle("click up stats",true,function()
+stats:Toggle("click up stats🎁(กดเพื่ออัพสเตตัสไก่ตัน)",true,function()
     while true do
     game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("AddPoint","Melee")
     game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("AddPoint","Defense")
